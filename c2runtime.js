@@ -21393,10 +21393,10 @@ cr.behaviors.DragnDrop = function(runtime)
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Audio,
 	cr.plugins_.Button,
-	cr.plugins_.TextBox,
-	cr.plugins_.Text,
-	cr.plugins_.Sprite,
 	cr.plugins_.TiledBg,
+	cr.plugins_.Text,
+	cr.plugins_.TextBox,
+	cr.plugins_.Sprite,
 	cr.behaviors.DragnDrop,
 	cr.system_object.prototype.cnds.OnLayoutStart,
 	cr.system_object.prototype.acts.SetVar,
@@ -21414,5 +21414,6 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Audio.prototype.acts.Play,
 	cr.system_object.prototype.acts.RestartLayout,
 	cr.system_object.prototype.acts.AddVar,
+	cr.system_object.prototype.cnds.Compare,
 	cr.system_object.prototype.acts.GoToLayout
 ];};
